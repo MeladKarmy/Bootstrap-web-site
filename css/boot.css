@@ -1,0 +1,92 @@
+
+#sec-1 {
+    background: rgba(0, 0, 0, .6) url("../images/banner.jpg") no-repeat center center/cover;
+    background-blend-mode: color;
+}
+#sec-1 div a.text-dark {
+    font-size: .8rem;
+}
+#sec-1  article a.text-dark {
+    font-size: 1rem;
+}
+#sec-1 main h4 {
+    padding-top: 100px;
+}
+#sec-3 {
+    background: rgba(0, 0, 0, .6) url("../images/bg4.jpg") no-repeat center center/cover;
+    background-blend-mode: color;
+}
+#sec-3 figure {
+	width: 400px;
+	border-radius: 20px;
+}
+#sec-3 figure span {
+	top: -35px;
+	left: 156px;
+}
+#sec-6 figure {
+    width: 435px;
+}
+#sec-6 figcaption img {
+    left: 180px;
+
+}
+@media (min-width: 768px) {
+    #sec-3 figure {
+		width: 320px;
+	}
+    #sec-3 figure span {
+		left: 122px;
+	}
+    #sec-6 figure {
+		width: 340px;
+}  
+#sec-6 figcaption img {
+    left: 140px;
+}
+#sec-7 input  {
+    height: 40px;
+};
+}
+@media (min-width: 992px) {
+    #sec-3 figure {
+        width: 230px;
+    }
+    #sec-3 figure span {
+        left: 65px;
+    }
+    #sec-6 figure {
+        width: 320px;
+    }
+    #sec-6 figcaption img {
+        left: 120px;
+    }
+}  
+@media (min-width: 1200px) {
+    #sec-6 figcaption img {
+        left: 150px;
+    }
+}
+#sec-5 {
+    background: rgba(0, 0, 0, .6) url("../images/bg2.jpg") no-repeat center center/cover;
+    background-blend-mode: color;
+}
+#sec-6 {
+    background:url("../images/bg3.jpg") no-repeat center center/cover;
+}
+#sec-6 figure {
+    width: 435px;
+}
+/* ------------------------------bootstrap----------------------------------- */
+.bg-black {
+    background-color: #000 !important;
+  }
+.bg-y{
+    background-color: rgb(254, 219, 93) !important;
+  }
+.bg-black-t {
+    background-color: rgba(0, 0, 0, .6) !important;
+  }
+.bg-g {
+    background-color: rgb(229, 229, 229) !important;
+  }
